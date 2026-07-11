@@ -17,7 +17,11 @@ EXCLUDE_REPOS = {"MAMP", "fullstack-webdev"}
 TOP_N = 6
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
-TOKEN = os.environ["GITHUB_TOKEN"]
+# PROFILE_TOKEN (user PAT) sees private repos; GITHUB_TOKEN (Actions) is public-only.
+# GraphQL always uses GITHUB_TOKEN — fine-grained PATs are not reliable there.
+TOKEN = os.environ.get("PROFILE_TOKEN") or os.environ["GITHUB_TOKEN"]
+GRAPHQL_TOKEN = os.environ.get("GITHUB_TOKEN") or TOKEN
+PRIVATE_ACCESS = bool(os.environ.get("PROFILE_TOKEN"))
 API = "https://api.github.com"
 
 # onedark
@@ -69,7 +73,7 @@ def graphql(query):
         API + "/graphql",
         data=json.dumps({"query": query}).encode(),
         headers={
-            "Authorization": f"Bearer {TOKEN}",
+            "Authorization": f"Bearer {GRAPHQL_TOKEN}",
             "User-Agent": USERNAME,
         },
         method="POST",
@@ -79,9 +83,15 @@ def graphql(query):
 
 
 def fetch_repos():
+    # /user/repos requires a user token but includes private repos
+    base = (
+        "/user/repos?affiliation=owner&per_page=100"
+        if PRIVATE_ACCESS
+        else f"/users/{USERNAME}/repos?type=owner&per_page=100"
+    )
     repos, page = [], 1
     while True:
-        batch = api_get(f"/users/{USERNAME}/repos?per_page=100&type=owner&page={page}")
+        batch = api_get(f"{base}&page={page}")
         repos.extend(batch)
         if len(batch) < 100:
             return repos
