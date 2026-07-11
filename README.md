@@ -4,7 +4,6 @@ Software engineer based in Japan 🇯🇵
 
 - 📱 Building mobile apps with **Flutter** and **Swift**
 - 💻 Web development with **TypeScript / React / Next.js** and **Go**
-- 🌐 Personal site: [hiroky1983.github.io](https://hiroky1983.github.io)
 
 ## 🛠 Tech Stack
 
