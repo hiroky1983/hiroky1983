@@ -55,11 +55,11 @@ LANG_COLORS = {
 OTHER_COLOR = "#5c6370"
 
 
-def api_get(path):
+def api_get(path, token=None):
     req = urllib.request.Request(
         API + path,
         headers={
-            "Authorization": f"Bearer {TOKEN}",
+            "Authorization": f"Bearer {token or TOKEN}",
             "Accept": "application/vnd.github+json",
             "User-Agent": USERNAME,
         },
@@ -112,8 +112,10 @@ def fetch_data():
     commits = graphql(
         f'{{ user(login: "{USERNAME}") {{ contributionsCollection {{ totalCommitContributions }} }} }}'
     )["data"]["user"]["contributionsCollection"]["totalCommitContributions"]
-    prs = api_get(f"/search/issues?q=author:{USERNAME}+type:pr")["total_count"]
-    issues = api_get(f"/search/issues?q=author:{USERNAME}+type:issue")["total_count"]
+    # search with GITHUB_TOKEN: a fine-grained PAT only searches repos it can
+    # access, undercounting public-wide PR/issue totals
+    prs = api_get(f"/search/issues?q=author:{USERNAME}+type:pr", GRAPHQL_TOKEN)["total_count"]
+    issues = api_get(f"/search/issues?q=author:{USERNAME}+type:issue", GRAPHQL_TOKEN)["total_count"]
     return langs, {"stars": stars, "commits": commits, "prs": prs, "issues": issues}
 
 
