@@ -18,9 +18,8 @@ Software engineer based in Japan 🇯🇵
 
 ## 📊 GitHub Stats
 
+<!-- self-hosted cards: regenerated daily by .github/workflows/update-stats.yml -->
 <p align="left">
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hiroky1983&layout=compact&show_icons=true&theme=onedark&langs_count=8&exclude_repo=MAMP,fullstack-webdev" />
-  <img alt="GitHub Stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=hiroky1983&theme=onedark&show_icons=true" />
+  <img alt="Top Languages" height="165" src="./assets/top-langs.svg" />
+  <img alt="GitHub Stats" height="165" src="./assets/stats.svg" />
 </p>
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=hiroky1983&theme=onedark&row=1)](https://github.com/ryo-ma/github-profile-trophy)
