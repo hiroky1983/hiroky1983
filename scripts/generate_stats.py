@@ -13,7 +13,13 @@ import os
 import urllib.request
 
 USERNAME = "hiroky1983"
+# MAMP / fullstack-webdev: committed server bundles & course assets
 EXCLUDE_REPOS = {"MAMP", "fullstack-webdev"}
+# languages that are (in this account) build artifacts, generated scaffolding,
+# or no longer part of the stack: Flutter windows/linux runners (C++/CMake),
+# iOS/Android runners (Objective-C/Kotlin), CocoaPods & fastlane (Ruby),
+# Bazel (Starlark), and PHP (old Laravel lesson repos, mostly scaffolding)
+EXCLUDE_LANGS = {"PHP", "Ruby", "C++", "CMake", "Objective-C", "Kotlin", "Starlark", "Procfile"}
 TOP_N = 6
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
@@ -106,7 +112,8 @@ def fetch_data():
     langs = {}
     for r in repos:
         for lang, size in api_get(f"/repos/{USERNAME}/{r['name']}/languages").items():
-            langs[lang] = langs.get(lang, 0) + size
+            if lang not in EXCLUDE_LANGS:
+                langs[lang] = langs.get(lang, 0) + size
 
     stars = sum(r["stargazers_count"] for r in repos)
     commits = graphql(
