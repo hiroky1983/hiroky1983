@@ -21,6 +21,7 @@ Software engineer based in Japan 🇯🇵
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat&logo=react&logoColor=61DAFB)
 
 **Infra**
 
@@ -37,7 +38,8 @@ Software engineer based in Japan 🇯🇵
 ## 📊 GitHub Stats
 
 <!-- self-hosted cards: regenerated daily by .github/workflows/update-stats.yml -->
+<!-- width=49% keeps the two cards side by side at any viewport width (CSS flex is stripped by GitHub) -->
 <p align="left">
-  <img alt="Top Languages" height="165" src="./assets/top-langs.svg" />
-  <img alt="GitHub Stats" height="165" src="./assets/stats.svg" />
+  <img alt="Top Languages" width="49%" src="./assets/top-langs.svg" />
+  <img alt="GitHub Stats" width="49%" src="./assets/stats.svg" />
 </p>
