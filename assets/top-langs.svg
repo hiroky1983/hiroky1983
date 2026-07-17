@@ -3,16 +3,16 @@
   <text x="20" y="30" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="600" fill="#61afef">Top Languages</text>
   <clipPath id="bar"><rect x="20" y="46" width="280" height="10" rx="5.0"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="20.0" y="46" width="91.3" height="10" fill="#00B4AB"/>
-    <rect x="113.3" y="46" width="52.6" height="10" fill="#3178c6"/>
-    <rect x="167.8" y="46" width="32.8" height="10" fill="#00ADD8"/>
-    <rect x="202.6" y="46" width="29.3" height="10" fill="#F05138"/>
-    <rect x="233.9" y="46" width="24.4" height="10" fill="#3572A5"/>
-    <rect x="260.3" y="46" width="12.2" height="10" fill="#f1e05a"/>
-    <rect x="274.5" y="46" width="25.5" height="10" fill="#5c6370"/>
+    <rect x="20.0" y="46" width="91.1" height="10" fill="#00B4AB"/>
+    <rect x="113.1" y="46" width="52.4" height="10" fill="#3178c6"/>
+    <rect x="167.5" y="46" width="32.7" height="10" fill="#00ADD8"/>
+    <rect x="202.2" y="46" width="29.2" height="10" fill="#F05138"/>
+    <rect x="233.4" y="46" width="24.4" height="10" fill="#3572A5"/>
+    <rect x="259.8" y="46" width="12.5" height="10" fill="#f1e05a"/>
+    <rect x="274.3" y="46" width="25.7" height="10" fill="#5c6370"/>
   </g>
   <circle cx="24" cy="80" r="4" fill="#00B4AB"/>
-  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Dart <tspan fill="#8b929e">34.1%</tspan></text>
+  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Dart <tspan fill="#8b929e">34.0%</tspan></text>
   <circle cx="174" cy="80" r="4" fill="#3178c6"/>
   <text x="184" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">TypeScript <tspan fill="#8b929e">19.6%</tspan></text>
   <circle cx="24" cy="104" r="4" fill="#00ADD8"/>
@@ -22,7 +22,7 @@
   <circle cx="24" cy="128" r="4" fill="#3572A5"/>
   <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Python <tspan fill="#8b929e">9.1%</tspan></text>
   <circle cx="174" cy="128" r="4" fill="#f1e05a"/>
-  <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">JavaScript <tspan fill="#8b929e">4.5%</tspan></text>
+  <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">JavaScript <tspan fill="#8b929e">4.7%</tspan></text>
   <circle cx="24" cy="152" r="4" fill="#5c6370"/>
-  <text x="34" y="156" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Other <tspan fill="#8b929e">9.5%</tspan></text>
+  <text x="34" y="156" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Other <tspan fill="#8b929e">9.6%</tspan></text>
 </svg>
