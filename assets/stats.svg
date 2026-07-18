@@ -5,7 +5,7 @@
   <text x="32" y="62" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#dcdfe4">4</text>
   <text x="32" y="78" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" fill="#8b929e">Total Stars</text>
   <rect x="170" y="46" width="3" height="34" rx="1.5" fill="#c678dd"/>
-  <text x="182" y="62" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#dcdfe4">469</text>
+  <text x="182" y="62" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#dcdfe4">494</text>
   <text x="182" y="78" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" fill="#8b929e">Commits (past year)</text>
   <rect x="20" y="98" width="3" height="34" rx="1.5" fill="#61afef"/>
   <text x="32" y="114" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#dcdfe4">113</text>
