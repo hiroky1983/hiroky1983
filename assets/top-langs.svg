@@ -3,26 +3,26 @@
   <text x="20" y="30" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="600" fill="#61afef">Top Languages</text>
   <clipPath id="bar"><rect x="20" y="46" width="280" height="10" rx="5.0"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="20.0" y="46" width="109.2" height="10" fill="#F05138"/>
-    <rect x="131.2" y="46" width="72.3" height="10" fill="#00B4AB"/>
-    <rect x="205.5" y="46" width="23.9" height="10" fill="#3178c6"/>
-    <rect x="231.4" y="46" width="23.9" height="10" fill="#3572A5"/>
-    <rect x="257.3" y="46" width="14.0" height="10" fill="#00ADD8"/>
-    <rect x="273.3" y="46" width="9.2" height="10" fill="#89e051"/>
-    <rect x="284.5" y="46" width="15.5" height="10" fill="#5c6370"/>
+    <rect x="20.0" y="46" width="129.8" height="10" fill="#F05138"/>
+    <rect x="151.8" y="46" width="62.7" height="10" fill="#00B4AB"/>
+    <rect x="216.5" y="46" width="20.9" height="10" fill="#3178c6"/>
+    <rect x="239.4" y="46" width="20.7" height="10" fill="#3572A5"/>
+    <rect x="262.1" y="46" width="12.1" height="10" fill="#00ADD8"/>
+    <rect x="276.3" y="46" width="8.3" height="10" fill="#89e051"/>
+    <rect x="286.6" y="46" width="13.4" height="10" fill="#5c6370"/>
   </g>
   <circle cx="24" cy="80" r="4" fill="#F05138"/>
-  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Swift <tspan fill="#8b929e">40.7%</tspan></text>
+  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Swift <tspan fill="#8b929e">48.4%</tspan></text>
   <circle cx="174" cy="80" r="4" fill="#00B4AB"/>
-  <text x="184" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Dart <tspan fill="#8b929e">27.0%</tspan></text>
+  <text x="184" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Dart <tspan fill="#8b929e">23.4%</tspan></text>
   <circle cx="24" cy="104" r="4" fill="#3178c6"/>
-  <text x="34" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">TypeScript <tspan fill="#8b929e">8.9%</tspan></text>
+  <text x="34" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">TypeScript <tspan fill="#8b929e">7.8%</tspan></text>
   <circle cx="174" cy="104" r="4" fill="#3572A5"/>
-  <text x="184" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Python <tspan fill="#8b929e">8.9%</tspan></text>
+  <text x="184" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Python <tspan fill="#8b929e">7.7%</tspan></text>
   <circle cx="24" cy="128" r="4" fill="#00ADD8"/>
-  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Go <tspan fill="#8b929e">5.2%</tspan></text>
+  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Go <tspan fill="#8b929e">4.5%</tspan></text>
   <circle cx="174" cy="128" r="4" fill="#89e051"/>
-  <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.4%</tspan></text>
+  <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.1%</tspan></text>
   <circle cx="24" cy="152" r="4" fill="#5c6370"/>
-  <text x="34" y="156" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Other <tspan fill="#8b929e">5.8%</tspan></text>
+  <text x="34" y="156" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Other <tspan fill="#8b929e">5.0%</tspan></text>
 </svg>
