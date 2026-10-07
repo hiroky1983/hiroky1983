@@ -5,8 +5,8 @@
   <g clip-path="url(#bar)">
     <rect x="20.0" y="46" width="184.0" height="10" fill="#F05138"/>
     <rect x="206.0" y="46" width="36.2" height="10" fill="#00B4AB"/>
-    <rect x="244.3" y="46" width="12.3" height="10" fill="#3178c6"/>
-    <rect x="258.6" y="46" width="12.0" height="10" fill="#3572A5"/>
+    <rect x="244.2" y="46" width="12.3" height="10" fill="#3178c6"/>
+    <rect x="258.5" y="46" width="12.0" height="10" fill="#3572A5"/>
     <rect x="272.5" y="46" width="8.7" height="10" fill="#89e051"/>
     <rect x="283.2" y="46" width="7.0" height="10" fill="#00ADD8"/>
     <rect x="292.2" y="46" width="7.8" height="10" fill="#5c6370"/>
@@ -20,7 +20,7 @@
   <circle cx="174" cy="104" r="4" fill="#3572A5"/>
   <text x="184" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Python <tspan fill="#8b929e">4.5%</tspan></text>
   <circle cx="24" cy="128" r="4" fill="#89e051"/>
-  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.2%</tspan></text>
+  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.3%</tspan></text>
   <circle cx="174" cy="128" r="4" fill="#00ADD8"/>
   <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Go <tspan fill="#8b929e">2.6%</tspan></text>
   <circle cx="24" cy="152" r="4" fill="#5c6370"/>
