@@ -3,11 +3,11 @@
   <text x="20" y="30" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="600" fill="#61afef">Top Languages</text>
   <clipPath id="bar"><rect x="20" y="46" width="280" height="10" rx="5.0"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="20.0" y="46" width="190.8" height="10" fill="#F05138"/>
-    <rect x="212.8" y="46" width="31.4" height="10" fill="#00B4AB"/>
-    <rect x="246.3" y="46" width="12.3" height="10" fill="#3572A5"/>
-    <rect x="260.6" y="46" width="11.3" height="10" fill="#3178c6"/>
-    <rect x="273.8" y="46" width="9.3" height="10" fill="#89e051"/>
+    <rect x="20.0" y="46" width="190.7" height="10" fill="#F05138"/>
+    <rect x="212.7" y="46" width="31.4" height="10" fill="#00B4AB"/>
+    <rect x="246.1" y="46" width="12.3" height="10" fill="#3572A5"/>
+    <rect x="260.4" y="46" width="11.3" height="10" fill="#3178c6"/>
+    <rect x="273.7" y="46" width="9.5" height="10" fill="#89e051"/>
     <rect x="285.2" y="46" width="6.1" height="10" fill="#00ADD8"/>
     <rect x="293.3" y="46" width="6.7" height="10" fill="#5c6370"/>
   </g>
