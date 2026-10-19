@@ -6,13 +6,13 @@
     <rect x="20.0" y="46" width="190.7" height="10" fill="#F05138"/>
     <rect x="212.7" y="46" width="31.4" height="10" fill="#00B4AB"/>
     <rect x="246.1" y="46" width="12.3" height="10" fill="#3572A5"/>
-    <rect x="260.4" y="46" width="11.3" height="10" fill="#3178c6"/>
-    <rect x="273.7" y="46" width="9.5" height="10" fill="#89e051"/>
+    <rect x="260.3" y="46" width="11.3" height="10" fill="#3178c6"/>
+    <rect x="273.6" y="46" width="9.6" height="10" fill="#89e051"/>
     <rect x="285.2" y="46" width="6.1" height="10" fill="#00ADD8"/>
     <rect x="293.3" y="46" width="6.7" height="10" fill="#5c6370"/>
   </g>
   <circle cx="24" cy="80" r="4" fill="#F05138"/>
-  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Swift <tspan fill="#8b929e">71.2%</tspan></text>
+  <text x="34" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Swift <tspan fill="#8b929e">71.1%</tspan></text>
   <circle cx="174" cy="80" r="4" fill="#00B4AB"/>
   <text x="184" y="84" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Dart <tspan fill="#8b929e">11.7%</tspan></text>
   <circle cx="24" cy="104" r="4" fill="#3572A5"/>
@@ -20,7 +20,7 @@
   <circle cx="174" cy="104" r="4" fill="#3178c6"/>
   <text x="184" y="108" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">TypeScript <tspan fill="#8b929e">4.2%</tspan></text>
   <circle cx="24" cy="128" r="4" fill="#89e051"/>
-  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.5%</tspan></text>
+  <text x="34" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Shell <tspan fill="#8b929e">3.6%</tspan></text>
   <circle cx="174" cy="128" r="4" fill="#00ADD8"/>
   <text x="184" y="132" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="12" fill="#abb2bf">Go <tspan fill="#8b929e">2.3%</tspan></text>
   <circle cx="24" cy="152" r="4" fill="#5c6370"/>
